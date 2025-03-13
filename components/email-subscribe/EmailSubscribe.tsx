@@ -29,7 +29,7 @@ function EmailSubscribe() {
                 className="w-full rounded-sm border border-zinc-600 p-2 px-4 text-center text-sm text-white placeholder:text-xs focus:outline-0 placeholder:md:text-left"
                 placeholder="Enter your email address "
               />
-              <button className="rounded-sm bg-lime-500 px-5 py-2 text-black duration-300 hover:bg-lime-700 hover:text-white">
+              <button className="rounded-sm bg-lime-500 px-6 py-2 text-black duration-300 hover:bg-lime-700 hover:text-white">
                 Subscribe
               </button>
             </div>
