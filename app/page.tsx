@@ -1,3 +1,10 @@
+import EmailSubscribe from '@/components/email-subscribe/EmailSubscribe';
+
 export default function Home() {
-  return <h1>Hello Impulse</h1>;
+  return (
+    <div>
+      {/* <h1>Hello Impulse</h1> */}
+      <EmailSubscribe />
+    </div>
+  );
 }
