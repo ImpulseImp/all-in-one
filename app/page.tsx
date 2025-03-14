@@ -1,4 +1,4 @@
-import EmailSubscribe from '@/components/email-subscribe/EmailSubscribe';
+import EmailSubscribe from "@/components/EmailSubscribe";
 
 export default function Home() {
   return (
