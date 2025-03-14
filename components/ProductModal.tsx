@@ -7,10 +7,14 @@ function ProductModal() {
     // Main Container
     <div className="flex min-h-screen items-center justify-center bg-slate-100 font-sans">
       {/* Card Container */}
-      <div className="flex flex-col items-center justify-center space-y-6 rounded-xl bg-white p-4 shadow-2xl md:flex-row md:space-y-0 md:space-x-4 md:py-8">
+      <div className="flex flex-col items-center justify-center space-y-6 rounded-xl bg-white p-4 shadow-2xl md:flex-row md:space-y-0 md:space-x-4 md:px-16 md:py-16">
         {/* Image */}
-        <div>
-          <Image src={headphonesImg} alt="headphones image" className="w-60" />
+        <div className="md:self-start">
+          <Image
+            src={headphonesImg}
+            alt="headphones image"
+            className="mx-auto w-60 duration-200 hover:scale-105"
+          />
         </div>
         {/* Content */}
         <div className="flex flex-col space-y-4 text-center font-sans text-black md:text-left">
@@ -33,7 +37,7 @@ function ProductModal() {
             </p>
           </div>
           {/* Button group */}
-          <div className="group">
+          <div className="group h-12">
             <button className="w-full rounded-lg border-b-8 border-b-blue-700 bg-blue-700 text-white transition-all duration-150 group-hover:border-t-8 group-hover:border-b-0 group-hover:border-t-blue-700 group-hover:bg-blue-700 group-hover:shadow-lg">
               <div className="rounded-lg bg-blue-500 p-2 group-hover:bg-blue-600">
                 Add to cart
