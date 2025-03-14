@@ -93,7 +93,7 @@ function PricingGrids() {
             </a>
           </div>
           {/* Border */}
-          <div className="border-t border-slate-700"></div>
+          <div className="mx-2 border-t border-slate-700"></div>
           {/* lower card container */}
           <div className="mx-2 mb-2 bg-blue-950 p-4">
             {/* List Container */}
