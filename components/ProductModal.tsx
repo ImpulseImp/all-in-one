@@ -38,7 +38,7 @@ function ProductModal() {
           </div>
           {/* Button group */}
           <div className="group h-12">
-            <button className="w-full rounded-lg border-b-8 border-b-blue-700 bg-blue-700 text-white transition-all duration-150 group-hover:border-t-8 group-hover:border-b-0 group-hover:border-t-blue-700 group-hover:bg-blue-700 group-hover:shadow-lg">
+            <button className="w-full rounded-lg border-b-8 border-b-blue-700 bg-blue-700 text-white transition-all duration-150 group-hover:border-t-8 group-hover:border-b-0 group-hover:border-t-blue-700 group-hover:bg-blue-700">
               <div className="rounded-lg bg-blue-500 p-2 group-hover:bg-blue-600">
                 Add to cart
               </div>
