@@ -3,7 +3,7 @@ function PricingGrids() {
     //Background Container
     <div className="flex min-h-screen items-center justify-center bg-blue-950 font-sans text-white">
       {/* Cards Container */}
-      <div className="mt-10 flex flex-col items-center justify-center space-y-4 md:flex-row md:space-y-0 md:space-x-4">
+      <div className="mt-10 flex flex-col items-center justify-center space-y-4 md:flex-row md:space-y-0 md:space-x-14">
         {/* Card 1*/}
         <div className="rounded-xl bg-slate-700 text-white">
           {/* upper card container */}
@@ -13,7 +13,7 @@ function PricingGrids() {
             <p className="mb-4 font-light">$1.99/month</p>
             <a
               href="#"
-              className="my-6 inline-block rounded-lg border border-violet-600 px-10 py-3 text-center duration-200 hover:border-violet-800 hover:bg-violet-800"
+              className="my-6 inline-block rounded-lg border-2 border-violet-600 px-10 py-3 text-center duration-200 hover:border-violet-800 hover:bg-violet-800"
             >
               Purchase
             </a>
@@ -79,15 +79,15 @@ function PricingGrids() {
           </div>
         </div>
         {/* Card 2 */}
-        <div className="rounded-xl bg-slate-700 text-white">
+        <div className="rounded-xl bg-violet-600 text-white">
           {/* upper card container */}
           <div className="mx-2 mt-2 flex flex-col items-center justify-center rounded-t-xl bg-blue-950 p-8">
-            <div className="mb-10 uppercase">basic</div>
-            <span className="mb-2 font-serif text-5xl">100GB</span>
-            <p className="mb-4 font-light">$1.99/month</p>
+            <div className="mb-10 uppercase">standard</div>
+            <span className="mb-2 font-serif text-5xl">200GB</span>
+            <p className="mb-4 font-light">$3.99/month</p>
             <a
               href="#"
-              className="my-6 inline-block rounded-lg border border-violet-600 px-10 py-3 text-center duration-200 hover:border-violet-800 hover:bg-violet-800"
+              className="my-6 inline-block rounded-lg border-2 border-violet-600 bg-violet-600 px-10 py-3 text-center duration-200 hover:border-violet-800 hover:bg-violet-800"
             >
               Purchase
             </a>
@@ -113,7 +113,7 @@ function PricingGrids() {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm">100 GB of storage</span>
+                <span className="text-sm">200 GB of storage</span>
               </div>
               {/* List Item 2 */}
               <div className="flex justify-center space-x-1">
@@ -156,12 +156,12 @@ function PricingGrids() {
         <div className="rounded-xl bg-slate-700 text-white">
           {/* upper card container */}
           <div className="mx-2 mt-2 flex flex-col items-center justify-center rounded-t-xl bg-blue-950 p-8">
-            <div className="mb-10 uppercase">basic</div>
-            <span className="mb-2 font-serif text-5xl">100GB</span>
-            <p className="mb-4 font-light">$1.99/month</p>
+            <div className="mb-10 uppercase">premium</div>
+            <span className="mb-2 font-serif text-5xl">2TB</span>
+            <p className="mb-4 font-light">$8.99/month</p>
             <a
               href="#"
-              className="my-6 inline-block rounded-lg border border-violet-600 px-10 py-3 text-center duration-200 hover:border-violet-800 hover:bg-violet-800"
+              className="my-6 inline-block rounded-lg border-2 border-violet-600 px-10 py-3 text-center duration-200 hover:border-violet-800 hover:bg-violet-800"
             >
               Purchase
             </a>
@@ -187,7 +187,7 @@ function PricingGrids() {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm">100 GB of storage</span>
+                <span className="text-sm">2 TB of storage</span>
               </div>
               {/* List Item 2 */}
               <div className="flex justify-center space-x-1">
