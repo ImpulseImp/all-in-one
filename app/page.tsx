@@ -1,4 +1,5 @@
 import EmailSubscribe from "@/components/EmailSubscribe";
+import ImageGallery from "@/components/ImageGallery";
 import PricingGrids from "@/components/PricingGrids";
 import ProductModal from "@/components/ProductModal";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <EmailSubscribe />
       <PricingGrids />
       <ProductModal />
+      <ImageGallery />
     </div>
   );
 }
