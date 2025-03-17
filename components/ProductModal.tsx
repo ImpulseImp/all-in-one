@@ -47,7 +47,7 @@ function ProductModal() {
           {/* In Stock Animation */}
           <div>
             {/* circle */}
-            <div className="group flex items-center space-x-2">
+            <div className="group flex w-fit items-center space-x-2">
               <div className="h-4 w-4 rounded-full bg-green-400 group-hover:animate-ping"></div>
               <p className="text-sm">50+ pcs. in stock.</p>
             </div>
