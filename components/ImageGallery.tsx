@@ -41,7 +41,7 @@ function ImageGallery() {
           <div className="flex justify-between border-b text-gray-300">
             <input
               type="text"
-              className="ml-6 text-gray-400 placeholder:font-thin focus:outline-none md:w-80"
+              className="ml-6 text-black placeholder:font-thin focus:outline-none md:w-80"
               placeholder="Search"
             />
             <button>
